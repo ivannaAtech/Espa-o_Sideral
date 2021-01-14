@@ -1,0 +1,412 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.i_g {
+  width: 40px;
+  height: 40px;
+}
+#botaoresponsive {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+  display: none;
+}
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  background-color: #dcedec;
+}
+#logotipo {
+  width: 150px;
+  height: 75px;
+  float: left;
+  line-height: 75px;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #4c5b72;
+}
+nav ul li {
+  list-style-type: none;
+  margin-left: 25px;
+  display: inline-block;
+  line-height: 75px;
+  font-size: 1.2rem;
+}
+.detalhe_nav {
+  background-color: #aaa5a5;
+  color: #5b717f;
+  height: 35px;
+  margin-top: 19.5px;
+}
+#cabecalho {
+}
+#menu {
+  width: 850px;
+  height: 75px;
+  background-color: #5b717f;
+  float: right;
+  text-align: center;
+  display: block;
+}
+.limpar {
+  clear: both;
+}
+section {
+  width: 71%;
+  float: left;
+  padding: 2%;
+}
+#conteudo {
+}
+#conteudo-center {
+  width: 90%;
+  margin: auto;
+  padding: 5%;
+}
+#menina-ceu {
+  position: relative;
+  margin-left: 20%;
+}
+aside {
+  margin-top: 2%;
+  width: 21%;
+  float: right;
+  padding: 2%;
+}
+#lateral {
+  position: relative;
+  top: 100px;
+}
+.texto {
+  padding: 2%;
+}
+
+.fontes {
+  font-size: 12px;
+}
+#rodape {
+  width: 1000px;
+  height: 100px;
+  line-height: 100px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #4c5b72;
+  position: relative;
+}
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  background-color: #dcedec;
+  color: #4c5b72;
+  border-radius: 5px;
+}
+#conteudo-social {
+  align-items: center;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 50%;
+  width: 90%;
+}
+#midias-sociais {
+  margin-top: 5%;
+  margin-left: auto;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+  border-radius: 50%;
+  background-color: #4c5b72;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background-color: #a23691;
+  color: white;
+}
+.fa-github {
+  background-color: #312e36;
+  color: white;
+}
+@media (min-width: 1024px) {
+  #menu {
+    width: 850px;
+    height: 75px;
+    background-color: #5b717f;
+    float: right;
+    text-align: center;
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #menu {
+    width: 850px;
+    height: 75px;
+    background-color: #5b717f;
+    float: right;
+    text-align: center;
+    display: block;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  #botaoresponsive {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+  }
+  #logotipo {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #4c5b72;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    display: block;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #dcedec;
+    margin-right: 10px;
+  }
+  a:link {
+    text-decoration: none;
+    color: #4c5b72;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #4c5b72;
+  }
+  a:hover {
+    background-color: #dcedec;
+    color: #7a7c83;
+  }
+  #menu {
+    width: 100%;
+    height: 250px;
+    background-color: #5b717f;
+    text-align: center;
+    display: none;
+  }
+  #container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: #dcedec;
+  }
+  section {
+    width: 95%;
+    text-align: justify;
+  }
+  aside {
+    width: 94%;
+    text-align: justify;
+    margin-top: 2%;
+  }
+  #rodape {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4c5b72;
+  }
+}
+@media (min-width: 321px) and (max-width: 479px) {
+  #botaoresponsive {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+  }
+  #logotipo {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #4c5b72;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    display: block;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #dcedec;
+    margin-right: 10px;
+  }
+  a:link {
+    text-decoration: none;
+    color: #4c5b72;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #4c5b72;
+  }
+  a:hover {
+    background-color: #dcedec;
+    color: #7a7c83;
+  }
+  #menu {
+    width: 100%;
+    height: 250px;
+    background-color: #5b717f;
+    text-align: center;
+    display: none;
+  }
+  #container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: #dcedec;
+  }
+  section {
+    width: 95%;
+    text-align: justify;
+  }
+  aside {
+    width: 94%;
+    text-align: justify;
+    margin-top: 2%;
+  }
+  #rodape {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4c5b72;
+  }
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  #botaoresponsive {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+  }
+  #logotipo {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #4c5b72;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    display: block;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #dcedec;
+    margin-right: 10px;
+  }
+  a:link {
+    text-decoration: none;
+    color: #4c5b72;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #4c5b72;
+  }
+  a:hover {
+    background-color: #dcedec;
+    color: #7a7c83;
+    border-radius: 5px;
+  }
+  #menu {
+    width: 100%;
+    height: 250px;
+    background-color: #5b717f;
+    text-align: center;
+    display: none;
+  }
+  #container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: #dcedec;
+  }
+  section {
+    width: 95%;
+    text-align: justify;
+  }
+  aside {
+    width: 94%;
+    text-align: justify;
+    margin-top: 2%;
+  }
+  #rodape {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4c5b72;
+  }
+}

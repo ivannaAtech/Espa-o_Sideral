@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="icon" href="../img/logo_espace_yellow.png" />
+    <link
+      href="../css/estilo_responsive.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Espaço Sideral</title>
+    <script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script type="text/javascript">
+      function MM_DW_effectBlind(obj, method, effect, dir, speed) {
+        obj[method](effect, { direction: dir }, speed);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div
+        id="botaoresponsive"
+        onClick="MM_DW_effectBlind($('#menu'),'toggle','blind','up',500)"
+      >
+        &#9776;
+      </div>
+      <header id="cabecalho">
+        <div id="logotipo">
+          <img
+            src="../img/logo_espace_yellow.png"
+            width="75"
+            height="75"
+            alt=""
+          />
+        </div>
+        <div id="menu">
+          <nav>
+            <ul>
+              <li><a href="../index.html">Página Principal</a></li>
+              <li>
+                <a href="../links/tamanho.html">Tamanho do Espaço Sideral</a>
+              </li>
+              <li><a href="../links/som.html">O Som do Espaço</a></li>
+              <li><a href="../links/curiosidades.html">Curiosidades</a></li>
+              <li><a href="">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="limpar"></div>
+      <main>
+        <section id="conteudo-social">
+          <h2>Conheça mais sobre quem construiu esta página</h2>
+          <br /><br />
+          <div id="midias-sociais">
+            <a
+              href="https://www.facebook.com/ivanna.atech/"
+              target="_blank"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://twitter.com/ivannatech"
+              target="_blank"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ivanna-almeida/"
+              target="_blank"
+              class="fa fa-linkedin"
+            ></a>
+            <a
+              href="https://www.instagram.com/ivannatech/"
+              target="_blank"
+              class="fa fa-instagram"
+            ></a>
+            <a
+              href="https://github.com/ivannaAtech"
+              target="_blank"
+              class="fa fa-github"
+            ></a>
+          </div>
+        </section>
+      </main>
+      <div id="rodape" class="limpar">
+        <footer>Espaço Sideral &copy; 2020</footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./img/logo_espace_yellow.png" />
+    <link href="./css/estilo_responsive.css" rel="stylesheet" type="text/css" />
+    <title>Espaço Sideral</title>
+    <script src="./jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="./jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script type="text/javascript">
+      function MM_DW_effectBlind(obj, method, effect, dir, speed) {
+        obj[method](effect, { direction: dir }, speed);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div
+        id="botaoresponsive"
+        onClick="MM_DW_effectBlind($('#menu'),'toggle','blind','up',500)"
+      >
+        &#9776;
+      </div>
+      <header id="cabecalho">
+        <div id="logotipo">
+          <img src="img/logo_espace_yellow.png" width="75" height="75" alt="" />
+        </div>
+        <div id="menu">
+          <nav>
+            <ul>
+              <li><a href="">Página Principal</a></li>
+              <li>
+                <a href="./links/tamanho.html">Tamanho do Espaço Sideral</a>
+              </li>
+              <li><a href="./links/som.html">O Som do Espaço</a></li>
+              <li><a href="./links/curiosidades.html">Curiosidades</a></li>
+              <li><a href="./links/contatos.html">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="limpar"></div>
+      <main id="conteudo">
+        <section>
+          <h1>Espaço Ao Vivo</h1>
+          <br />
+          <div class="frame">
+            <iframe
+              class="responsive-iframe"
+              src="https://www.youtube.com/embed/igxbW9B3nzs"
+              width="100%"
+              height="500px"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <br />
+          <h4>PLANETA TERRA VISTO DO ESPAÇO + ISS TRACKER (OFICIAL BR)™</h4>
+          <article class="texto">
+            <p class="text-info recuo">
+              Atualmente, as visualizações ao vivo da Estação Espacial
+              Internacional (ISS) estão sendo transmitidas a partir de uma
+              câmera externa montada no módulo ISS chamado Nó 2. O Nó 2 está
+              localizado na parte frontal do ISS. A câmera está olhando para a
+              frente em um ângulo para que o International Docking Adapter 2
+              (IDA2) fique visível. Se a câmera do Nó 2 não estiver disponível
+              devido a considerações operacionais por um longo período de tempo,
+              será exibido um loop contínuo de imagens HDEV gravadas. O loop
+              terá "Gravado anteriormente" na imagem para distingui-lo da
+              transmissão ao vivo da câmera do Nó 2. Depois que o HDEV parou de
+              enviar dados em 18 de julho de 2019, foi declarado, em 22 de
+              agosto de 2019, ter chegado ao fim da vida útil.
+            </p>
+          </article>
+          <h3>O que é Espaço Sideral?</h3>
+          <article class="texto">
+            <p class="text-info recuo">
+              Espaço sideral é toda área vazia do universo que não está ocupada
+              por corpos celestes. No ambiente do espaço sideral, além dos
+              corpos celestes, habita poucas partículas, como plasma de
+              hidrogênio e hélio, campos magnéticos, neutrinos, radiação
+              eletromagnética, bem como poeira interestelar e raios cósmicos.
+            </p>
+            <p class="text-info recuo">
+              <br />
+              Entretanto, todas essas partículas e qualquer corpo celeste no
+              espaço sideral, representam apenas 5% de tudo o que existe no
+              universo.
+            </p>
+            <br />
+            <p>
+              O universo é constituído, predominantemente, de matéria escura
+              (25%) e energia escura (70%). As propriedades ainda não são
+              conhecidas, sendo o grande mistério que leva os astrônomos a uma
+              busca interminável para explicar o espaço sideral.
+            </p>
+          </article>
+        </section>
+        <aside>
+          <iframe
+            width="100%"
+            height="90%"
+            src="https://www.youtube.com/embed/DDU-rZs-Ic4"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </aside>
+        <aside>
+          <iframe
+            width="100%"
+            height="90%"
+            src="https://www.youtube.com/embed/EEIk7gwjgIM"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </aside>
+        <aside>
+          <iframe
+            width="100%"
+            height="90%"
+            src="https://www.youtube.com/embed/tNkZsRW7h2c"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </aside>
+
+        <section>
+          <div class="fontes">
+            fonte:
+            <h4>conhecimento cientifico:</h4>
+            https://conhecimentocientifico.r7.com/espaco-sideral/#:~:text=Espa%C3%A7o%20sideral%20%C3%A9%20toda%20%C3%A1rea,poeira%20interestelar%20e%20raios%20c%C3%B3smicos.
+          </div>
+        </section>
+      </main>
+      <div id="rodape" class="limpar">
+        <footer>Espaço Sideral &copy; 2020</footer>
+      </div>
+    </div>
+  </body>
+</html>
