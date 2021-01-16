@@ -1,6 +1,6 @@
 ## Este é meu primeiro site
 
-Desenvolvido para o Projeto Integrador do curso de Webdesigner com carga horária de 160 hora(s), realizado no período de 14/09/2020 a 11/11/2020 no SENAC-MG
+Desenvolvido para o Projeto Integrador do curso de Webdesigner, realizado no período de 14/09/2020 a 11/11/2020 no SENAC-MG
 
 ### Conteúdo do curso:
 
