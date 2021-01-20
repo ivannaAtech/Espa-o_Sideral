@@ -13,3 +13,8 @@ Desenvolvido para o Projeto Integrador do curso de Webdesigner, realizado no per
 04- Publicar websites.
 
 05- Projeto integrador Webdesigner
+
+### Telas
+
+<img src="https://github.com/ivannaAtech/Espaco_Sideral/blob/main/img/print-pagina-principal.png" alt="print pagina principal" width="500" height="600">
+<img src="https://github.com/ivannaAtech/Espaco_Sideral/blob/main/img/print-pagina-curiosidades.png" alt="print pagina curiosidades.png"  width="200" height="431">
